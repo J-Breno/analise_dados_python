@@ -1,1 +1,60 @@
+# Ambientes virtuais
+venv/
+env/
+.venv/
+.env/
+ENV/
+
+# Variáveis de ambiente / segredos
+.env
+.env.*
+!.env.example
+
+# Cache e bytecode do Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
 .idea
+
+# Distribuição / build
+build/
+dist/
+*.egg-info/
+*.egg
+wheels/
+pip-wheel-metadata/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Testes e cobertura
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+nose2.cfg
+
+# Type checkers / linters
+.mypy_cache/
+.ruff_cache/
+.pytype/
+
+# IDEs / editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Logs e dados temporários
+*.log
+*.tmp
+
+# Bancos de dados locais (se usar SQLite, por exemplo)
+*.sqlite3
+*.db
